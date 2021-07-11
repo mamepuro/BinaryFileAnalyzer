@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj": {}
+    "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\BinaryFileAnalyzer\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj": {
+    "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\BinaryFileAnalyzer\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj",
+        "projectUniqueName": "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\BinaryFileAnalyzer\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj",
         "projectName": "AssemblyAnalyzer",
-        "projectPath": "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj",
+        "projectPath": "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\BinaryFileAnalyzer\\AssemblyAnalyzer\\AssemblyAnalyzer.csproj",
         "packagesPath": "C:\\Users\\ayata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\AssemblyAnalyzer\\obj\\",
+        "outputPath": "C:\\Users\\ayata\\OneDrive - 筑波大学\\ドキュメント\\大学関係\\Kadai\\binary_program_analysis\\week2\\BinaryFileAnalyzer\\AssemblyAnalyzer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayata\\AppData\\Roaming\\NuGet\\NuGet.Config",

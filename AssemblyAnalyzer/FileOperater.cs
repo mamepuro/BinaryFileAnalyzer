@@ -13,7 +13,7 @@ namespace AssemblyAnalyzer
             Console.WriteLine("=============================================================================================");
             Console.WriteLine("注意:実行ファイルが存在しているディレクトリ内に解析対象のバイナリファイルを配置してください。");
             Console.WriteLine("注意:対象のバイナリファイルはMach-O 64bit x86-64とします。それ以外の実行可能ファイルはうまく解析かもしれません");
-            Console.WriteLine("PE形式のファイルを解析する場合は.exeでなく.objファイルを指定してください。");
+            Console.WriteLine("PE形式のファイルを解析する場合は.exeでなく.objファイルを指定してください。(うまく解析が行かない場合があります)");
             Console.WriteLine("=============================================================================================");
             Console.WriteLine("解析対象のオブジェクトファイル名を指定してください");
             string filePath = Console.ReadLine();
@@ -30,7 +30,7 @@ namespace AssemblyAnalyzer
                 process.StartInfo.RedirectStandardInput = false;
                 process.StartInfo.RedirectStandardOutput = true;
                 process.StartInfo.CreateNoWindow = false;
-                process.StartInfo.Arguments = @"/c objdump -d " + filePath + "> a.txt";
+                process.StartInfo.Arguments = @"/c objdump -d " + filePath + "> c.txt";
                 process.Start();
                 string results = process.StandardOutput.ReadToEnd();
                 process.WaitForExit();
@@ -59,7 +59,7 @@ namespace AssemblyAnalyzer
                         //関数が定義されている部分
                         if(t.IndexOf("<") != -1)
                         {
-                            string insutrucution = t.Substring(1, t.Length - 2);
+                            string insutrucution = t.Substring(2, t.Length - 3);
                             Console.WriteLine(insutrucution);
                             list.Add(insutrucution);
                         }
