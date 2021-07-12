@@ -11,8 +11,7 @@ namespace AssemblyAnalyzer
         static void Main(string[] args)
         {
             string filename = FileOperater.GetFilePathFromConsole();
-            Console.WriteLine(filename);
-            FileOperater.GetInstructionList(filename);
+            FileOperater.AnalyzeBinaryFile(filename);
             Console.WriteLine("EnterKey押すと終了します");
             //EnterKeyを押すまで待機
             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
