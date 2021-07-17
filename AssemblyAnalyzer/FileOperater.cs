@@ -71,11 +71,11 @@ namespace AssemblyAnalyzer
                     }
                 }
             }
-            
+            /*
             foreach(var item in dict)
             {
                 Console.WriteLine("ADDRESS:" + item.Key + " INSTRUCTION:" + item.Value);
-            }
+            }*/
             
             return dict;
         }
@@ -249,7 +249,7 @@ namespace AssemblyAnalyzer
                                         {
                                             string functionName = tokens[3].Substring(2, tokens[3].Length - 3);
                                             functions[index].Add(functionName);
-                                            Console.WriteLine(currentFunctionName + ":" + functionName);
+                                            //Console.WriteLine(currentFunctionName + ":" + functionName);
                                         }
                                     }
                                 }
